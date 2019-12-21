@@ -11,7 +11,7 @@ class SplashScreen extends React.Component {
       
       <View style={[styles.container, { backgroundColor: 'gray' }]}>
         <Image source={require ('C:/Ennext/assets/logo.jpg')}
-               style={{ width:wp('96%'),height:hp('100%') }}/>
+               style={{ width:wp('100%'),height:hp('100%') }}/>
       </View> 
     );
   }
